@@ -11,11 +11,12 @@
 
 
 #include "MarbleNavigator.h"
-#include "ui_MarbleNavigator.h"
 
 #include <QtAlgorithms>
 
 #include "MarbleDebug.h"
+
+#include "ui_MarbleNavigator.h"
 
 
 namespace Marble
