@@ -179,7 +179,7 @@ QModelIndexList MarblePlacemarkModel::approxMatch( const QModelIndex & start, in
     while ( row < rowNum && count != hits ) {
         if ( flags & Qt::MatchStartsWith ) {
             entryIndex = index( row, 0 );
-            listName    = data( entryIndex, role ).toString().toLower();
+            listName   = data( entryIndex, role ).toString().toLower();
             simplifiedListName = GeoString::deaccent( listName );
 
             if ( listName.startsWith( queryString ) 
