@@ -18,7 +18,6 @@
 
 #include "ui_MarbleNavigator.h"
 
-
 namespace Marble
 {
 
